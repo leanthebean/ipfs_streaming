@@ -17,7 +17,7 @@ App = {
 
     })
 
-    return App.initWeb3();
+    App.bindEvents();
   },
 
   bindEvents: function () {
