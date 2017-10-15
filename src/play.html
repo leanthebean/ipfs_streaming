@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Video Streaming</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+
+<body>
+  <div class="container">
+    <div class="row">
+        <h1>Awesome streamed video where all segments are stored on IPFS</h1>
+        <hr/>
+        <br/>
+    </div>
+    <div class="row">
+      <video id="video"></video>
+    </div>
+    <br>
+    <br>
+    <div class="row">
+      <label style="font-size:25px;"> Like this video? Pay for it to live on the network a bit longer </label><br>
+      <button class="btn btn-lg btn-default btn-pay btn-danger" style="padding: 25px 100px; font-size: 30px;" type="button">Pay</button>
+    </div>
+  </div>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+<script src="https://unpkg.com/hlsjs-ipfs-loader@0.1.1/dist/index.js"></script>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/web3.min.js"></script>
+<script src="js/truffle-contract.js"></script>
+<script src="js/play.js"></script>
+</body>

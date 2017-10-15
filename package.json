@@ -1,0 +1,31 @@
+{
+  "name": "pet-shop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle.js",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+      "start": "node server.js"
+  },
+  "dependencies": {
+    "async": "^2.5.0",
+    "blueimp-file-upload-node": "^2.1.0",
+    "ffmpeg": "0.0.4",
+    "ffmpeg.js": "^3.1.9001",
+    "fluent-ffmpeg": "^2.1.2",
+    "form-data": "^2.3.1",
+    "formidable": "^1.1.1",
+    "fs": "0.0.1-security",
+    "http": "0.0.0",
+    "ipfs": "^0.26.0",
+    "libp2p-crypto-secp256k1": "^0.2.2",
+    "list-react-files": "^0.2.0",
+    "mkdirp": "^0.5.1",
+    "node-http-server": "^8.1.2",
+    "path": "^0.12.7",
+    "promise": "^8.0.1",
+    "rimraf": "^2.6.2",
+    "serve-static": "^1.13.1"
+  }
+}

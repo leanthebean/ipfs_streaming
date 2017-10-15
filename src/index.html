@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>IPFS Video Streaming</title>
+
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-8 col-sm-push-2">
+        <h1 class="text-center">Video Streamer</h1>
+        <hr/>
+        <br/>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6">
+        <form action="fileupload" method="post" enctype="multipart/form-data">
+          <input type="file" name="filetoupload"><br>
+          <input class="btn-submit" type="submit">
+          <img 
+            src="http://www.mytreedb.com/uploads/mytreedb/loader/ajax_loader_gray_512.gif" 
+            id="loader" 
+            class="loader"
+            style="visibility: hidden;"/>
+        </form>
+      </div>
+      
+      <div class="col-md-6">
+        <div id="playlistsRow" class="row">
+          <!-- PLAYLISTS LOAD HERE -->
+        </div>
+       
+
+        <html>
+        
+          <div id="playlistsTemplate" style="display: none;" class="row">
+            <div class="row">
+              <a class="link" href=""> </a>
+            </div>
+          </div>
+          
+            <!--<video class="video" id="video"></video>-->
+        </html>
+        </script>
+      </div>
+    </div>
+  </div>
+
+ <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+ <script src="https://unpkg.com/hlsjs-ipfs-loader@0.1.1/dist/index.js"></script>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/web3.min.js"></script>
+  <script src="js/truffle-contract.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>
