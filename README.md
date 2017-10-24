@@ -1,5 +1,6 @@
 Video streaming on IPFS hackathon project: 
 
+https://www.youtube.com/watch?v=xQNjK3BC2CA&feature=youtu.be%3Fvq%3Dhd1080
 
 [![Video streaming on IPFS demo video](https://img.youtube.com/vi/xQNjK3BC2CA/0.jpg)](https://www.youtube.com/watch?v=xQNjK3BC2CA&feature=youtu.be%3Fvq%3Dhd1080)
 
